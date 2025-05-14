@@ -1,3 +1,11 @@
+# Version Compatibility
+| Nive Forms | Vault Application                            |
+|-|-|
+| 25.6.0 [unreleased]   | 25.6.0 [unreleased]|              |
+| 25.5.0                | 25.4.0                            |
+
+
+# Changelog
 [Unreleased]
 Date: 
 
@@ -11,6 +19,8 @@ Changed
 
 Bugfixes
 - Fixed form descriptions displayed in columns instead of rows.
+- Merged heartbeat check and form submission API calls to reduce the number of requests and fix service unavailable errors.
+**NOTE:** This change introduces a breaking dependency on the vault application. The required version of the vault application is now `25.6.0` or higher.
 
 ---
 

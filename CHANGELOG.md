@@ -7,13 +7,14 @@
 
 # Changelog
 [Unreleased]
-Date: 
+Date: Planned for 17.6.2025
 
 Minor Features
 - Improved translation handling for better support of multiple languages.
 - Improved overall frontend project structure for better maintainability.
 - Added public changelog
 - Implemented form field order management in the form editor interface.
+- Implemented form submissions validation to ensure data integrity in M-Files.
 
 Changed
 - Migrated frontend code to typescript for better type safety and maintainability.

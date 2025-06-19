@@ -1,4 +1,11 @@
 # Changelog
+
+[25.6.3]
+Date: 19.6.2025
+
+Bugfixes
+- Fixed an issue with M-Files cloud environments cookies not being returned correctly, causing user unauthentication after login.
+
 [25.6.2]
 Date: 18.6.2025
 

@@ -9,7 +9,7 @@ Minor Features
 - Added status indicators for disabled/hidden forms in the admin interface.
 - Restrict M-Files account access to admin page based on authorized user in vault application
 - Added improved logging for most backend operations.
-- Added M-Files/EntraID authentication support for forms.
+- Added M-Files/EntraID authentication enforcement for forms.
 
 Changed
 - Migrated backend code to Typescript for better type safety and maintainability.

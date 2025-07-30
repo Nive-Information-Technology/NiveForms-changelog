@@ -1,5 +1,21 @@
 # Changelog
 
+[25.8.0]
+Date: N/A
+
+Minor Features
+- Changing language from URL parameters eg. `?lang=gb` changes the application language.
+- Use selected M-Files Property Definition's name as the default label for form fields. (supports translations)
+- Added status indicators for disabled/hidden forms in the admin interface.
+- Restrict M-Files account access to admin page based on authorized user in vault application
+- Added improved logging for most backend operations.
+- Added M-Files/EntraID authentication support for forms.
+
+Changed
+- Migrated backend code to Typescript for better type safety and maintainability.
+- Split the translations into separate language files within the localization directory.
+- Changed translation editor in admin interface to a table view for better usability.
+
 [25.6.3]
 Date: 19.6.2025
 

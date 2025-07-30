@@ -3,13 +3,16 @@
 [25.8.0]
 Date: N/A
 
+Major Features
+- Restrict M-Files account access to admin page based on a list of authorized user in vault application
+- Added M-Files/EntraID authentication enforcement for forms.
+
 Minor Features
-- Changing language from URL parameters eg. `?lang=gb` changes the application language.
+- Added support for changing application language via URL parameters (e.g., `?lang=gb`).
 - Use selected M-Files Property Definition's name as the default label for form fields. (supports translations)
 - Added status indicators for disabled/hidden forms in the admin interface.
-- Restrict M-Files account access to admin page based on authorized user in vault application
 - Added improved logging for most backend operations.
-- Added M-Files/EntraID authentication enforcement for forms.
+- Added tooltips to form settings for better user guidance.
 
 Changed
 - Migrated backend code to Typescript for better type safety and maintainability.

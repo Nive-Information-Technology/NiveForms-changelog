@@ -4,8 +4,9 @@
 Date: N/A
 
 Major Features
-- Restrict M-Files account access to admin page based on a list of authorized user in vault application
+- Restrict M-Files account access to admin page based on a list of authorized user in vault application.
 - Added M-Files/EntraID authentication enforcement for forms.
+- Added conditional hiding/showing of form fields based on configured field values.
 
 Minor Features
 - Added support for changing application language via URL parameters (e.g., `?lang=gb`).
